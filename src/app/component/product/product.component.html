@@ -1,0 +1,6 @@
+<p>product works!</p>
+<div class="container">
+    <h2>Catalogo de Productos</h2>
+    <ul><li *ngFor = 'let item of products'>{{item.name}} - precio {{item.price | currency: 'EUR' }}</li></ul>
+
+</div>
